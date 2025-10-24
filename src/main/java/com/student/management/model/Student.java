@@ -15,6 +15,8 @@ public class Student{
     private String email;
     private int age;
 
+    public Student(){}
+
     public Student(String name, String email, int age){
         this.name = name;
         this.email = email;
@@ -39,5 +41,8 @@ public class Student{
     }
     public String getEmail(){
         return email;
+    }
+    public Long getId(){
+        return id;
     }
 }
